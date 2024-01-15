@@ -1,5 +1,6 @@
 # Projet Automatisation
 
+Ce projet est disponible directement avec ce lien : https://github.com/Exelupra/Docker
 Ce projet est actuellement en cours de développement par Laura Gallion
 
 ## Configuration requise
@@ -10,7 +11,7 @@ Ce projet est actuellement en cours de développement par Laura Gallion
 
 1. Clonez ce dépôt sur votre machine locale.
    
-   git clone https://github.com/votre-utilisateur/projet-xyz.git
+   git clone git@github.com:Exelupra/Docker.git
 
 Lancez les conteneurs Docker en utilisant la commande suivante :
 
