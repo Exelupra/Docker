@@ -1,0 +1,51 @@
+version: "3"
+networks:
+  neuvi:
+    driver: bridge
+services:
+  mysql :
+    image: "mysql:latest"
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWD:-password}
+      MYSQL_DATABASE: ${DB_DATABASE:-immo}
+      MYSQL_USER: ${DB_USER_NAME:-user}
+      MYSQL_PASSWORD: ${DB_USER_PASSWORD:-password}
+    ports:
+      - "3307:3306"
+    networks:
+      - neuvi
+    volumes:
+      - ./mysql-init:/docker-entrypoint-initdb.d
+  api:
+    image: 'canals/php:latest'
+    environment:
+      MYSQL_HOST: mysql
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-immo}
+      MYSQL_USER: ${DB_USER_NAME:-user}
+      MYSQL_PASSWORD: ${DB_USER_PASSWORD:-password}
+    ports:
+      - "2080:80"
+    volumes:
+      - ./immo-api-php-main/public:/var/www/html
+      - ./immo-api-php-main:/var/www
+    working_dir: /var/www/
+    networks:
+      - neuvi
+
+  admin:
+    image: 'node:latest'
+    build: .
+    command:
+      - sh
+      - -c
+      - |
+        npm i
+        npm run dev
+    ports:
+      - "1080:3000"
+    volumes:
+      - ./immo-admin-react-main:/var/www
+    working_dir: /var/www
+    networks:
+      - neuvi
+

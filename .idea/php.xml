@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpCSFixer">
+    <phpcsfixer_settings>
+      <PhpCSFixerConfiguration tool_path="$PROJECT_DIR$/immo-api-php-main/vendor/bin/php-cs-fixer" />
+    </phpcsfixer_settings>
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/friendsofphp/php-cs-fixer" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/php-di/php-di" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/php-di/slim-bridge" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/aws/aws-crt-php" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/aws/aws-sdk-php" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/php-di/invoker" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/carbonphp/carbon-doctrine-types" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/mtdowling/jmespath.php" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/neomerx/cors-psr7" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/illuminate/collections" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/illuminate/pagination" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/illuminate/database" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/illuminate/macroable" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/illuminate/conditionable" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/slim/psr7" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/lukasoppermann/http-status" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/respect/stringifier" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/respect/validation" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/tuupola/http-factory" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/tuupola/callable-handler" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/tuupola/cors-middleware" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/fig/http-message-util" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/composer" />
+      <path value="$PROJECT_DIR$/immo-api-php-main/vendor/psr/simple-cache" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/immo-api-php-main/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>
